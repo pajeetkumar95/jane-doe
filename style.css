@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    display: flex;  
+}
+.wrapperleft{
+    width: 40%;
+}
+.wrapperright{
+    width: 60%;
+    padding: 0px 1.5rem;
+}
+.wrapperleft img{
+    width: 40%;
+    height: 100vh;
+    position: fixed;
+}
+.wrapperright .menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+
+}
+.janehead{
+    text-align: center;
+    padding: 200px ;
+}
+.janehead h1{
+    font-size: 70px;
+    padding: 20px 0px;
+}
+.janehead p{
+    padding: 20px 0px;
+}
+.janehead a{
+    text-decoration: none;
+    color: #000;
+    background-color: darkgrey;
+}
+
+
+.image{
+    display: flex;
+}
+.portleft{
+    width: 100%;
+}
+.portleft img{
+    width: 98%;
+}
+.porthead{
+    padding-bottom: 40px;
+    color: darkgrey;
+}
+.about{
+    padding: 2rem 0px;
+}
+.about p{
+    padding: 2rem 0px;
+}
+.per1,.per2,.per3{
+    width: 100%;
+    border: 1px solid;
+    background-color: darkgray;
+    text-align: center;
+
+}
+.per1 p{
+    width: 95%;
+    background-color:#000;
+    color: #fff;
+}
+.per2 p{
+    width: 85%;
+    background-color:#000;
+    color: #fff;
+}
+.per3 p{
+    width: 80%;
+    background-color: #000;
+    color: #fff;
+}
+.sec{
+    padding: 1rem 0rem;
+}
+.partners{
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgrey;
+    height: 100px;
+    align-items: center;
+    margin: 2rem 0px;
+    text-align: center;
+}
+.ancher a:hover{
+    background-color: rgba(49, 48, 48, 0.555);
+}
+.ancher{
+    padding: 2rem 0rem;
+}
+.ancher a{
+    text-decoration: none;
+    background-color: darkgrey;
+    color: #000;
+    padding: 10px;
+}
+.chance{
+    display: flex;
+}
+.flex1{
+    width: 20%;
+}
+.flex1 img{
+    width: 70%;
+    border-radius: 50%;
+}
+.top1{
+    padding: 1rem 0rem;
+}
+.top1 span{
+    font-size: 20px;
+}
+
+.phead h1{
+    padding: 2rem 0rem;
+    color: darkgray;
+}
+.basic{
+    display: flex;
+    justify-content: space-evenly   ;
+    align-items: center;
+    padding: 1rem;
+}
+.basic1{
+    border: 1px solid ;
+    
+}
+.basic1 h4{
+    padding: 1.5rem 6rem;
+    background-color: darkgrey;
+    color: #fff;
+}
+.basic ul li{
+    text-align: center;
+    list-style: none;
+    padding: 1rem;
+    border: 1px solid;
+}
+.basic2{
+    border: 1px solid;
+}
+.basic2 h4{
+    padding: 1.5rem 6rem;
+    background-color: #000;
+    color: #fff;
+}
+.a{
+    background-color: darkgrey;
+}
+.basic ul li span{
+    color: #fff;
+}
+
+#write{
+    color: darkgrey;
+}
+.write1{
+    padding: 2rem 0rem;
+}
+.write2 li{
+    list-style: none;
+    padding: 0.5rem;
+}
+
+#image6 img{
+    width: 100%;
+}
+
+.let{
+    padding: 2rem 0rem;
+    justify-content: center;
+}
+.let p{
+    padding: 1rem;
+}
+.form input{
+    padding: 0.5rem;
+    width: 100%;
+    margin: 0.5rem 0rem;
+}
+.form a{
+    text-decoration: none;
+    color: #000 ;
+    background-color:darkgrey ;
+}
+
+.bet1 ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.bet1 ul li{
+    list-style: none;
+    padding: 1rem;
+}
+.bet2 p{
+    text-align: center;
+}
+.bet1 a{
+    text-decoration: none;
+    color: #000;
+}
